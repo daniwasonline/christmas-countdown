@@ -1,0 +1,102 @@
+.Core {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.Core-Contain {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Core-Link {
+  color: #61dafb;
+}
+
+.FireplaceBackgroundIF {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -500;
+}
+
+.FireplaceBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FireplaceBlur {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 75%;
+  filter:blur(550px);
+  -o-filter:blur(350px);
+  -ms-filter:blur(350px);
+  -moz-filter:blur(350px);
+  -webkit-filter:blur(350px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -499;
+}
+
+.BodyTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Readex Pro", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.BodyTop-Tagline {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.BodyTop-Subheading {
+  font-size: 30px;
+}
+
+.BodyTop-Watermark {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 1vw;
+  color: whitesmoke;
+  font-size: 16px;
+  opacity: 95%;
+}
+
+.BodyTop-Watermark:hover {
+  opacity: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  .BodyTop-Tagline {
+    font-size: 40px;
+  }
+
+  .BodyTop-Subheading {
+    font-size: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .BodyTop-Watermark {
+    padding-right: 3.5vw;
+    padding-bottom: 1vw;
+    font-size: 14px;
+  }
+}
