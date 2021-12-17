@@ -31,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 .FireplaceBlur {
@@ -38,15 +39,18 @@
   height: 100%;
   background-color: black;
   opacity: 75%;
-  filter:blur(550px);
-  -o-filter:blur(350px);
-  -ms-filter:blur(350px);
-  -moz-filter:blur(350px);
-  -webkit-filter:blur(350px);
+  filter:blur(10px);
+  -o-filter:blur(10px);
+  -ms-filter:blur(10px);
+  -moz-filter:blur(10px);
+  -webkit-filter:blur(10px);
+  background-position: 0;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -499;
+  background-image: url("../../img/fireplace.gif");
 }
 
 .BodyTop {
