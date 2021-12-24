@@ -34,7 +34,7 @@ export default function BodyTop() {
         }, 1000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [occasion]);
 
     function DateRender() 
     {
